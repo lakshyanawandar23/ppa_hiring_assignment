@@ -30,7 +30,7 @@ export default function CustomCarousel() {
 //       );
 // }
 return (
-  <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows >
+  <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows dynamicHeight={true} >
     <div>
       <Image src="/images/image1.jpg" alt="Slide 1" width={800} height={600} />
     </div>

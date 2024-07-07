@@ -1,6 +1,4 @@
 // components/Header.js
-// components/Header.js
-import { useThemeStore } from '../stores/themestore';
 import { useEffect,useState } from 'react';
 export default function Header() {
   const [theme, setTheme] = useState('light');
